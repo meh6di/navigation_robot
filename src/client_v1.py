@@ -53,8 +53,8 @@ threading.Thread(target=receiver_thread, daemon=True).start()
 # base forward speed. Since motors can't reverse, the turn bias is clamped
 # so neither pulse goes below MIN_US.
 
-LEFT_ESC_PIN = 18
-RIGHT_ESC_PIN = 19
+LEFT_ESC_PIN = 12
+RIGHT_ESC_PIN = 13
 
 MIN_US = 1000      # full stop / minimum throttle
 MAX_US = 2000       # full throttle
