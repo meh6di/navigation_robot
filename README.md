@@ -200,7 +200,7 @@ python app.py
 ```
 Collected/processed trash images can be organized under `collected_trash/`.
 
-_For the full explanation of the detection, prioritization, and PID-based navigation algorithms, see [section 4.6 of the report](./Template_Rapport_PLBD_Latex_claude.pdf)._
+_For the full explanation of the detection, prioritization, and PID-based navigation algorithms, see [section 4.6 of the report](./Rapport.pdf)._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
