@@ -72,7 +72,7 @@
 
 The system uses a Raspberry Pi 4 onboard to capture live video, which is streamed over TCP/IP to a remote PC running a custom-trained **YOLOv8 Nano** model for real-time waste detection (~32 FPS). Once a target is identified, a distance-based prioritization algorithm selects the closest piece of trash, and a **PID controller** computes a steering correction that is applied through **differential propulsion** (no rudder needed) to steer the robot toward it. Collected waste is scooped into a weighted net, and a companion web app analyzes the collected items, counts them, and estimates their total weight.
 
-Full methodology, hardware choices, test results, and analysis are documented in the [project report](./Template_Rapport_PLBD_Latex_claude.pdf).
+Full methodology, hardware choices, test results, and analysis are documented in the [project report](./Rapport.pdf).
 
 **Team (Groupe N°28):**
 * EL ALLAOUI Mohamed El Mehdi — AI, detection & navigation
@@ -240,7 +240,7 @@ This started as an academic project (Learning by Doing, École Centrale Casablan
 <!-- LICENSE -->
 ## License
 
-Distributed under the license in `LICENSE`. See `LICENSE` for more information.
+Distributed under the MIT License in `LICENSE`. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
